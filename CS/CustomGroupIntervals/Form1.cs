@@ -38,7 +38,8 @@ namespace CustomGroupIntervals {
             pivotGridFieldGroups.Area = PivotArea.RowArea;
             pivotGridFieldGroups.Caption = "Product Groups";
             pivotGridFieldGroups.Options.ShowExpressionEditorMenu = true;
-            ExpressionDataBinding customInterval = new ExpressionDataBinding("Iif(Substring([fieldProductName], 0, 1) < 'F', 'A-E', Substring([fieldProductName], 0, 1) < 'T', 'F-S', 'T-Z')");
+            ExpressionDataBinding customInterval = new ExpressionDataBinding("Iif(Substring([fieldProductName], 0, 1) < 'F', 
+              'A-E', Substring([fieldProductName], 0, 1) < 'T', 'F-S', 'T-Z')");
             pivotGridFieldGroups.DataBinding = customInterval;
             pivotGridFieldGroups.AreaIndex = 0;
             pivotGridControl1.Fields.Add(pivotGridFieldGroups);
