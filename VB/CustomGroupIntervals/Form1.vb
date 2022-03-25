@@ -28,7 +28,6 @@ Namespace CustomGroupIntervals
 			pivotGridFieldCountry.DataBinding = country
 			pivotGridControl1.Fields.Add(pivotGridFieldCountry)
 
-
 			Dim pivotGridFieldProducts As New PivotGridField()
 			pivotGridFieldProducts.Area = PivotArea.RowArea
 			Dim productNames As New DataSourceColumnBinding("ProductName")
@@ -40,11 +39,11 @@ Namespace CustomGroupIntervals
 			pivotGridFieldGroups.Area = PivotArea.RowArea
 			pivotGridFieldGroups.Caption = "Product Groups"
 			pivotGridFieldGroups.Options.ShowExpressionEditorMenu = True
-			Dim customInterval As New ExpressionDataBinding("Iif(Substring([fieldProductName], 0, 1) < 'F', 'A-E', Substring([fieldProductName], 0, 1) < 'T', 'F-S', 'T-Z')")
+			Dim customInterval As New ExpressionDataBinding("Iif(Substring([fieldProductName], 0, 1) < 'F', 
+				'A-E', Substring([fieldProductName], 0, 1) < 'T', 'F-S', 'T-Z')")
 			pivotGridFieldGroups.DataBinding = customInterval
 			pivotGridFieldGroups.AreaIndex = 0
 			pivotGridControl1.Fields.Add(pivotGridFieldGroups)
-
 
 			Dim pivotGridFieldSales As New PivotGridField()
 			pivotGridFieldSales.Area = PivotArea.DataArea
