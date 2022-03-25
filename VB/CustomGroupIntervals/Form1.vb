@@ -1,13 +1,4 @@
 ﻿Imports DevExpress.XtraPivotGrid
-Imports System
-Imports System.Collections.Generic
-Imports System.ComponentModel
-Imports System.Data
-Imports System.Drawing
-Imports System.Linq
-Imports System.Text
-Imports System.Threading.Tasks
-Imports System.Windows.Forms
 
 Namespace CustomGroupIntervals
 	Partial Public Class Form1
