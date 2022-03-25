@@ -10,7 +10,7 @@ This example shows how to implement custom group intervals in Pivot Grid to grou
 <!-- default file list -->
 ## Files to look at
 
-* [Form1.cs](./CS/CustomGroupInterval/Form1.cs) (VB: [Form1.vb](./VB/CustomGroupInterval/Form1.vb))
+* [Form1.cs](./CS/CustomGroupIntervals/Form1.cs) (VB: [Form1.vb](./VB/CustomGroupIntervals/Form1.vb))
 <!-- default file list end -->
 
 
