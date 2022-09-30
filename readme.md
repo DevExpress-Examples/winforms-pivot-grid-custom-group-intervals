@@ -26,4 +26,4 @@ The expression groups the _Product Name_ field's values into three large ranges:
 
 ## Documentation
 
-[Custom Group Intervals](https://docs.devexpress.com/WindowsForms/1846/controls-and-libraries/pivot-grid/data-shaping/grouping#custom)
+[Custom Group Intervals](https://docs.devexpress.com/WindowsForms/1846/controls-and-libraries/pivot-grid/data-shaping/grouping#custom-group-intervals)
