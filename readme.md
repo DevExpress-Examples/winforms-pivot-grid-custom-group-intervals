@@ -17,8 +17,8 @@ The expression groups the _Product Name_ field's values into three large ranges:
 
 ## Files to Review
 
-* [Form1.cs](./CS/CustomGroupIntervals/Form1.cs) (VB: [Form1.vb](./VB/CustomGroupIntervals/Form1.vb))
+- [Form1.cs](./CS/CustomGroupIntervals/Form1.cs) (VB: [Form1.vb](./VB/CustomGroupIntervals/Form1.vb))
 
 ## Documentation
 
-[Custom Group Intervals](https://docs.devexpress.com/WindowsForms/1846/controls-and-libraries/pivot-grid/data-shaping/grouping#custom-group-intervals)
+- [Custom Group Intervals](https://docs.devexpress.com/WindowsForms/1846/controls-and-libraries/pivot-grid/data-shaping/grouping#custom-group-intervals)
